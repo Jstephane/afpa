@@ -1,5 +1,5 @@
 
-public class Chien {
+public class Chien extends Animal{
 
 	public String Nom;
 	public int Taille; 

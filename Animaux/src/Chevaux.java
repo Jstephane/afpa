@@ -1,5 +1,5 @@
 
-public class Chevaux {
+public class Chevaux extends  Vache{
 	
 	
 	
@@ -18,6 +18,14 @@ public class Chevaux {
 	
 }
 	
+
+
+
+public Chevaux() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 
 
 

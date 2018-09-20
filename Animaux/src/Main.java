@@ -9,11 +9,11 @@ public class Main {
 		System.out.println("      CHIEN              ");
 
 		Chien medor = new Chien("Medor",2,30,"Noir","BergerAllemand");
-		//	Medor.Nom= "Medor";
-		//	Medor.Taille=2;
-		//	Medor.Poids=30;
-		//	Medor.Couleur="Noir";
-		//	Medor.Race="BergerAllemand";
+	//	  Medor.Nom= "Medor";
+	  //  Medor.Taille=2;
+	  //  Medor.Poids=30;
+	  //  Medor.Couleur="Noir";
+		//Medor.Race="BergerAllemand";
 
 		medor.manger();
 		medor.dormir();
@@ -113,11 +113,31 @@ public class Main {
 		System.out.println("La couleur du lapin est " + Lelapin.Couleur  );
 		
 		
+		
+		
+		Chien Titan = new Chien("Titan",3,55,"Blanc","Rottweiller");     
+		Titan.manger();
+		Titan.dormir();
+		Titan.jouer();
+		Titan.aboyer();
+		Titan.mordre();
+		System.out.println("Le chien est  " + Titan.Nom );
+		
+		
+		
+		Animal Titan2 = new Chien ("Chien sans nom ",10 , 2 , "Vert","Bouldegoue" );
+		System.out.println(Titan2.Nom );
+		Titan2.manger();
+		Chien Titan2chien = (Chien) Titan2;
+		Titan2chien.aboyer();
+		((Chien) Titan2).aboyer();
+		
+	}
+	
+
 
 	}
 	
 	
 	
-	
-	
-}
+

@@ -6,6 +6,16 @@ public class Vache {
 	public int Poids;
 	public String Couleur;
 	public String Race;
+	
+	
+	public Vache() {
+		super();
+	
+	}
+
+
+
+
 	public Vache(String nom, int taille, int poids, String couleur, String race) {
 		this.Nom= nom;
 		this.Taille = taille;

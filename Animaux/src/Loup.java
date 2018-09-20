@@ -1,5 +1,5 @@
 
-public class Loup {
+public class Loup extends Animal {
 
 	public String Nom;
 	public int Taille; 

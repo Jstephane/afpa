@@ -1,5 +1,5 @@
 
-public class Chat {
+public class Chat extends Animal{
 	
 	public String Nom;
 	public int Taille; 

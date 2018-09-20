@@ -111,18 +111,21 @@ public class Main {
 		System.out.println("***********************************************************");
 		System.out.println("***********************************************************");
 
+		
+		System.out.println(Paris.etatLumiere);
+		System.out.println(Marseille.etatLumiere);
+		System.out.println(Lille.etatLumiere);
+		System.out.println(Liverpool.etatLumiere);
+		
+
+		System.out.println("----------------------Lumiere--------------------------------");
 
 
 
 
-
-
-
-
-
-
-
-
+	}
+	
+	
 
 
 
@@ -137,5 +140,3 @@ public class Main {
 
 
 
-
-}

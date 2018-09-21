@@ -1,8 +1,23 @@
 
+
+
+package fr.fofana;
+
+import fr.fofana.animal.Animal;
+import fr.fofana.animal.Chat;
+import fr.fofana.animal.Chevaux;
+import fr.fofana.animal.Chien;
+import fr.fofana.animal.Lapin;
+import fr.fofana.animal.Loup;
+import fr.fofana.animal.Vache;
+
 public class Main {
+	
+	
 
 	public static void main(String[] args) {
 
+		
 		System.out.println("Les Animaux");
 
 		System.out.println();

@@ -1,3 +1,4 @@
+package fr.fofana.animal;
 
 public class Lapin {
 	public String Nom;

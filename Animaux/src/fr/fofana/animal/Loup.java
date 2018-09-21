@@ -1,3 +1,4 @@
+package fr.fofana.animal;
 
 public class Loup extends Animal {
 

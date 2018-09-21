@@ -1,3 +1,5 @@
+package fr.fofana.animal;
+
 
 public class Chevaux extends  Vache{
 	

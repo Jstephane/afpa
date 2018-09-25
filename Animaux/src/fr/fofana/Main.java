@@ -128,7 +128,7 @@ public class Main {
 		System.out.println("La couleur du lapin est " + Lelapin.Couleur  );
 		
 		
-		
+		System.out.println();
 		
 		Chien Titan = new Chien("Titan",3,55,"Blanc","Rottweiller");     
 		Titan.manger();
@@ -138,7 +138,7 @@ public class Main {
 		Titan.mordre();
 		System.out.println("Le chien est  " + Titan.Nom );
 		
-		
+		System.out.println();
 		
 		Animal Titan2 = new Chien ("Chien sans nom ",10 , 2 , "Vert","Bouldegoue" );
 		System.out.println(Titan2.Nom );
